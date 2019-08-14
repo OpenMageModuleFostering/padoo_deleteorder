@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Padoo_Deleteorder>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Padoo_Deleteorder>
+    </modules>
+</config> 

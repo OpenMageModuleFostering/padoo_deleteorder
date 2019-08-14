@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/padoo_deleteorder",
+    "type": "magento-module",
+    "license": "GNU-General-Public-License-(GPL)",
+    "homepage": "",
+    "description": "Allow delete order and bulk orders and related invoices, shipments.",
+    "authors": [
+    {
+        "name": "Padoosoft",
+        "email": "stdspace@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

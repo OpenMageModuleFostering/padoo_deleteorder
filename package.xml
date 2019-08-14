@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<package>
+    <name>padoo_deleteorder</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/gpl-license.php">GNU General Public License (GPL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Allow delete order and bulk orders and related invoices, shipments.</summary>
+    <description>&lt;div&gt;&#xD;
+	&lt;p&gt;Default Magento dosen't support to allow user delete orders.  But in fact, We need remove orders in some case such as  useless orders that us made during testing stage or pending or cancel order. By install and use the extension you can easy and fast delete orders in  Orders List, Order Detail page and mass delete orders on List Order page.&lt;/p&gt;&#xD;
+	&lt;p&gt;Unlike as tips various given on forum to delete order. You need  programming knowledge and can make out dangerous error for your database. The extension will help you delete order and related invoice without database error and knowledge programming.&lt;/p&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;div&gt;&#xD;
+	&lt;h3&gt;Features and benefits&lt;/h3&gt;&#xD;
+	&lt;ul&gt;&#xD;
+		&lt;li&gt;100% opensource&lt;/li&gt;&#xD;
+		&lt;li&gt;No database knowledge needed&lt;/li&gt;&#xD;
+		&lt;li&gt;Easy to install&lt;/li&gt;&#xD;
+		&lt;li&gt;No damage to the database &amp;quot;keys&amp;quot;&lt;/li&gt;&#xD;
+		&lt;li&gt;Doesn&#x2019;t override core Magento ( core class or core template)&lt;/li&gt;&#xD;
+		&lt;li&gt;Works perfectly with popular browsers including Firefox, Chrome, IE  and Safari&lt;/li&gt;&#xD;
+		&lt;li&gt;Friendly and easy to configurable&lt;/li&gt;&#xD;
+		&lt;li&gt;Compatibility: Magento CE 1.4, 1.5, 1.6, 1.7, 1.8, 1.9&lt;/li&gt;&#xD;
+	&lt;/ul&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;div&gt;&#xD;
+	&lt;h3&gt;How to use the our Delete Order&lt;/h3&gt;&#xD;
+	&lt;ol&gt;&#xD;
+		&lt;li&gt;Install via Magentconnect or get it from our site Mage-addons.com&lt;/li&gt;&#xD;
+		&lt;li&gt;Set "Yes" on System &gt; Configuration &gt; Delete Order &gt; General&lt;img alt="" src="http://www.mage-addons.com/media/wysiwyg/559.png" /&gt;&lt;/li&gt;&#xD;
+		&lt;li&gt;And you can  specify order by click on  delete link on Order list or Mass delete orders by choice &#x201C;Delete orders&#x201D; option . And you also delete order with &#x201C;Delete Order&#x201D; button on Order detail&#xD;
+			&lt;ol&gt;&#xD;
+				&lt;li /&gt;Delete any order from the order page&lt;img alt="" src="http://www.mage-addons.com/media/wysiwyg/561.png" /&gt;&lt;/li&gt;&#xD;
+				&lt;li&gt;Delete any order from the order list page&lt;/li&gt;&#xD;
+				&lt;li&gt;Delete mass order from the order list page&lt;img alt="" src="http://www.mage-addons.com/media/wysiwyg/560.png" /&gt;&lt;/li&gt;&#xD;
+			&lt;/ol&gt;&#xD;
+		&lt;/li&gt;&#xD;
+	&lt;/ol&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;div&gt;&#xD;
+	&lt;h3&gt;How to disable the extension&lt;/h3&gt;&#xD;
+	&lt;p&gt;Set &amp;quot;No&amp;quot; on System &amp;gt; Configuration&amp;gt; Delete Order &amp;gt; General&lt;/p&gt;&#xD;
+	&lt;p&gt;You also disable extension by open &amp;quot;app/etc/modules/Padoo_Deleteorder&amp;quot;  and change xml to &amp;quot;true&amp;quot; to &amp;quot;no&amp;quot;&lt;/p&gt;&#xD;
+&lt;/div&gt;</description>
+    <notes>This is the first release of this product.</notes>
+    <authors><author><name>Padoosoft</name><user>MageAddons82</user><email>stdspace@gmail.com</email></author></authors>
+    <date>2016-03-23</date>
+    <time>06:52:53</time>
+    <contents><target name="magelocal"><dir name="Padoo"><dir name="Deleteorder"><dir name="Block"><dir name="Adminhtml"><dir name="Sales"><dir name="Order"><file name="Grid.php" hash="b0eb404599a6cabbc12a87c5bb445655"/><dir name="Render"><file name="Delete.php" hash="aaee00add580dd661ee84b590c88290c"/></dir><file name="View.php" hash="65f21955a39320302cb6ea8c64e5ccc2"/></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="cb2c81463f926ffb6956f8b9255037d1"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="DeleteorderController.php" hash="c92b6bc303c16d24fb0abf6532352d26"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="c6251aaf0ce50bf90366778f7b8fff75"/><file name="config.xml" hash="6c9b44e0bc473cb453d3359c84d187a5"/><file name="system.xml" hash="41cba6638f9541462c6f9dbaf9fbdad0"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Padoo_Deleteorder.xml" hash="6b982ffddc0a4de5f62e86f96e68807a"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
