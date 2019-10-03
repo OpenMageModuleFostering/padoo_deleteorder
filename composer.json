@@ -1,5 +1,5 @@
 {
-    "name": "OpenMageModuleFostering\/padoo_deleteorder",
+    "name": "openmage-module-fostering\/padoo_deleteorder",
     "type": "magento-module",
     "license": "GNU-General-Public-License-(GPL)",
     "homepage": "",
